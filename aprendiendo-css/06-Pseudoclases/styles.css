@@ -1,0 +1,53 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul li{
+    font-size: 20px;
+}
+
+ul li:first-child{
+    color:blueviolet;
+    font-weight: bold;
+}
+
+ul li:nth-child(2){
+    color:orangered;
+    font-weight: bold;
+}
+
+ul li:last-child{
+    color: cornflowerblue;
+    font-weight: bold;
+}
+
+#mi-enlace{
+    font-size: 30px;
+    color: red;
+}
+
+#mi-enlace:link{
+    color: blue;
+}
+
+#mi-enlace:visited{
+    color: green;
+}
+
+#mi-enlace:hover{ /*se aplica cuando yo paso por encima con el raton*/ 
+ color: pink
+}
+
+#mi-enlace:active{ /*mientras este pulsando de un color y letra diferente */
+ color: chartreuse;
+ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+input[type="text"]{
+    margin-top: 20px;
+    padding: 10px;
+}
+
+input[type="text"]:focus{ /*estoy dentro del cuadro me cambia a color rojo*/
+    border:4px solid red ;
+}

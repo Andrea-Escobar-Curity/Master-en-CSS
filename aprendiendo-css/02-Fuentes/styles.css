@@ -1,0 +1,34 @@
+h1{
+    font-style: italic;  
+    font-family: "Permanent Marker", cursive; /*FUENTE DE GOOGGLE FONTS*/
+    text-transform: uppercase ; /*MAYUSCULA*/
+    font-size: 45px;
+
+/* COLORES*/
+/*Colores del sistema*/
+color: mediumpurple;
+
+/*Colores hexadecimales*/
+
+color: #CCCCCC;
+/*Colores RGB*/
+
+color: rgb(214, 54, 54);
+/*Colores RGBA*/
+color: rgb(214, 54, 54, 0.5);
+
+
+}
+
+h3{
+    font-family:"Comic Sans MS";
+    font-size: 25px;
+    font-weight:lighter ;
+}
+
+p{
+    font-family: "Whisper", cursive;
+    font-size: 18px;
+    font-weight: bold;
+
+}
