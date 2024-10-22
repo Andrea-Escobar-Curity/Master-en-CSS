@@ -1,0 +1,62 @@
+body{
+    --rojo:red;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+        
+#layout{
+    display:flex; /*se adapta la caja a las cajas internas */
+    /*
+    flex-direction: row;
+    flex-wrap: wrap;
+    */
+    flex-flow:row wrap;
+    justify-content: space-around; /* centrar -alinear*/
+    height:600px;
+    align-items: flex-start;
+    
+    border: 3px solid black ;
+    padding: 5px;
+}
+
+.caja{
+    /*flex-grow: 1;
+    flex-basis: calc((100% / 3) - 68px);*/
+    flex-grow: 1;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    border: 4px solid #222;
+    margin: 10px;
+    background: gray;
+}
+
+.red{
+   
+   /*flex-grow: 2; tamano de la ccaja*/
+    background: var(--rojo);
+    align-self: flex-start;
+}
+
+.green{
+    /*margin-top: 10%;*/
+    align-self: center;
+    background: green;
+}
+
+.blue{
+    /*order: 1; /*menos  se utilzia para poner de primera la caja azul */
+    background: blue;
+    align-self:center;
+    
+}
+
+.orange{
+    /*flex-basis: 100%;
+    /*flex-grow: 0; reducir tamano caja*/
+    /*flex-shrink: 0; /*reducir tamano caja*/
+    background: orange;
+    align-self: flex-end;
+}
